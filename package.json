@@ -1,0 +1,22 @@
+{
+  "name": "teddy-quotes-api",
+  "version": "1.0.0",
+  "description": "An Api to fetch quotes of the 26th president of the United States",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "author": "STP93",
+  "license": "MIT",
+  "dependencies": {
+    "apollo": "^2.33.4",
+    "apollo-server-express": "^2.25.2",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "graphql": "^15.5.1",
+    "graphql-depth-limit": "^1.1.0",
+    "graphql-validation-complexity": "^0.4.2",
+    "mongoose": "^5.13.2",
+    "nodemon": "^2.0.10"
+  }
+}
